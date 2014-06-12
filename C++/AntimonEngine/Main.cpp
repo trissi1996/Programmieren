@@ -4,14 +4,17 @@
 using namespace std;
 
 
-int i=0;
+
+
+
 
 int main(int argc, char* argv[])
 {
-    for(i = 0;i<1000000;)
+    int i=0;
+    for(i = 0;i<100000;i++)
     {
-        i++;
     }
+
 
 
    return i;
