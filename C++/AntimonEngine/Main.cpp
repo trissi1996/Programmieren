@@ -3,19 +3,11 @@
 
 using namespace std;
 
-
-
-
-
-
 int main(int argc, char* argv[])
 {
-    int i=0;
-    for(i = 0;i<100000;i++)
+    for(int i = 0;i<10000;i++)
     {
+        cout << i;
     }
-
-
-
-   return i;
+   return 0;
 }
