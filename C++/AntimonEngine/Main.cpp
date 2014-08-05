@@ -1,13 +1,23 @@
 #include <iostream>
+#include <string>
+
 
 
 using namespace std;
 
 
+string getString(string bla,string bla1)
+{
+    return bla + bla1;
+}
+string getString(string bla,string bla1, string bla2)
+{
+    return bla + bla1 + bla2;
+}
+
 void HalloWelt()
 {
-    cout << "Hello World!" << endl;
-
+    cout << getString("Hello World!","!","!");
 }
 
 
