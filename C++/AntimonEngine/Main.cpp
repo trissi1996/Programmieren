@@ -1,10 +1,7 @@
 #include <iostream>
 #include <string>
 
-
-
 using namespace std;
-
 
 string getString(string bla,string bla1)
 {
@@ -19,8 +16,6 @@ void HalloWelt()
 {
     cout << getString("Hello World!","!","!");
 }
-
-
 
 
 int main(int argc, char* argv[])
